@@ -18,9 +18,8 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* position: relative; */
+    position: relative;
     transform: scale(.8);
-    transition: .2s ease-in-out;
     margin-bottom: 50px;
     background-color: #A91079;
     cursor: pointer;
@@ -31,7 +30,6 @@
 
 .card:hover .card_img{
     margin-top: -5vw;
-    transition: 0.2s ease-in-out;
 }
 .card:hover .card_body{
     margin: 0;
@@ -53,6 +51,7 @@
 
 .card_body{
     margin-top: -3vw;
+    /* transition: 1s ease-out; */
     z-index: 99;
     color: #2E0249;
 }

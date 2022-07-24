@@ -7,7 +7,7 @@ export default class MainList extends Component {
 		const itemList = this.props.breeds.map((item) =>
 			<div className='card' key={item.id}>
 				<div className='card_img'>
-					<img src={item.image.url} />
+					<img src={item.image.url} alt={item.id} />
 				</div>
 				<div className='card_body'>
 					<p>{item.origin}</p>
