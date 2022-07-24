@@ -1,0 +1,7 @@
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    background-color: #570A57;
+    color: white;
+}
